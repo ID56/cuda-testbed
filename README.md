@@ -1,2 +1,3 @@
-# cuda-testbed
+# CUDA Testbed
+
 Simple CUDA acceleration tests and samples.
