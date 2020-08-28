@@ -16,9 +16,7 @@ def main(args):
     B = np.ones( N,  dtype = np.float32)
     C = np.empty(N,  dtype = np.float32)
 
-    # Interestingly, the function is actually compiled the first time it is used.
-    # Calling Add() early removes the compilation overhead from the actual Add() operation.
-
+    # initial compilation
     if args.e: 
         Add(np.float32(0), np.float32(0))
 

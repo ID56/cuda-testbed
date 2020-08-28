@@ -1,3 +1,3 @@
-# CUDA Testbed
+# Numba Testbed
 
-Simple CUDA acceleration tests and samples.
+My collection of numba acceleration tests.
