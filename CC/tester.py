@@ -27,7 +27,7 @@ def test_runtime(N):
     # Gain increases to 14x at N=100 and reduces to 2.5x at N=10000
 
 if __name__ == '__main__':
-    N = 10
+    N = 1000
 
     test_equality(N)
     test_runtime(N)
